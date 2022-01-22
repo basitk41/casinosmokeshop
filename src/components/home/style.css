@@ -1,0 +1,13 @@
+.home {
+  background: url(bg.jpg) repeat center fixed;
+  background-color: #ddd9d9;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+.home .title {
+  text-align: center;
+  font-size: 55px;
+  color: rgb(228, 34, 76);
+  font-weight: bolder;
+}

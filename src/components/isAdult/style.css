@@ -1,0 +1,45 @@
+.main {
+  text-align: center;
+  background: linear-gradient(-45deg, #e9dedb, #b66d88, #23a6d5, #8821e9);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.main .main-inner {
+  padding-top: 50px;
+}
+.main .title {
+  text-align: center;
+}
+.main .title h1 {
+  color: #0066ff;
+  font-family: "Monoton", cursive;
+  font-size: 50px;
+}
+.main .title h2 {
+  font-size: 4.8rem;
+  margin-top: -40px;
+}
+.main .title h3 {
+  font-size: 2.3em;
+  color: indianred;
+}
+.main .title p {
+  color: #ebd1d1;
+  font-size: 24px;
+  margin-top: -40px;
+}
+.main .title img {
+  width: 400px;
+}
