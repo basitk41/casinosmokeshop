@@ -3,7 +3,7 @@ import Slider from "react-carousel-responsive";
 import "react-carousel-responsive/dist/styles.css";
 import Card from "../ui/card";
 const Products = () => {
-  const images = [1, 2, 3, 4, 5, 6, 7, 8];
+  const images = Array.from({ length: 17 }, (_, i) => i + 1);
   return (
     <section className="product">
       <div className="product-inner">
